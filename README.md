@@ -18,6 +18,7 @@ To demonstrate a production-ready DevSecOps pipeline that:
 
 ![Diagram](devsecops-pipeline.png)
 
+---
 ## Stack & Components
 
 | Component     | Role                                                                 |
@@ -101,7 +102,7 @@ INFO: ------------- Analysis Success -------------
 INFO: More about the report at:
 https://sonarcloud.io/dashboard
 ```
-![Diagram](sonarcube-result.png)
+![Diagram](sonarqube-result.png)
 ---
 
 ### Trivy Scan Output
