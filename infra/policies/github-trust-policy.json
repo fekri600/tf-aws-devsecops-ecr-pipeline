@@ -11,7 +11,7 @@
         "Condition": {
           "StringLike": {
             "token.actions.githubusercontent.com:sub": [
-              "repo:fekri600/devsecops:*"
+              "repo:fekri600/tf-aws-devsecops-ecr-pipeline:*"
             ]
           }
         }
