@@ -93,7 +93,6 @@ On every `main` branch push, the following steps run:
 INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
 INFO: Project root configuration file: /github/workspace/sonar-project.properties
 INFO: Load global settings
-INFO: Load project settings for component key: fekri600_devsecops2
 INFO: ------------- Scan devsecops2 -------------
 INFO: 6 source files indexed
 INFO: ------------- Analysis Success -------------
@@ -110,11 +109,11 @@ devsecops (alpine 3.18)
 =======================
 Total: 6 (CRITICAL: 0, HIGH: 2, MEDIUM: 3, LOW: 1)
 
-│ Library │ Vulnerability ID │ Severity │ Installed Version │ Fixed Version │
-│--------│------------------│----------│--------------------│----------------│
-│ musl   │ CVE-2023-47625   │ HIGH     │ 1.2.4-r1           │ 1.2.4-r2       │
-│ npm    │ CVE-2024-12345   │ HIGH     │ 9.6.0              │ 9.6.1          │
-│ zlib   │ CVE-2022-37434   │ MEDIUM   │ 1.2.13-r1          │ 1.2.13-r2      │
+│ Library │ Vulnerability ID │ Severity │ Installed Version  │ Fixed Version  │
+│---------│------------------│----------│--------------------│----------------│
+│ musl    │ CVE-2023-47625   │ HIGH     │ 1.2.4-r1           │ 1.2.4-r2       │
+│ npm     │ CVE-2024-12345   │ HIGH     │ 9.6.0              │ 9.6.1          │
+│ zlib    │ CVE-2022-37434   │ MEDIUM   │ 1.2.13-r1          │ 1.2.13-r2      │
 ```
 
 ---
@@ -180,7 +179,7 @@ make delete
 ## Author
 
 **Fekri Saleh**  
-Cloud Architect • DevSecOps Engineer • IEEE Author  
+Cloud Architect • DevOps Engineer • IEEE Author  
 📍 Calgary, Alberta, Canada  
 🔗 [LinkedIn](https://www.linkedin.com/in/fekri600)  
 🔗 [GitHub](https://github.com/fekri600)
